@@ -12,3 +12,19 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.slide-wrapper {
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide li {
+  /* vw = virtual width, cada imagem terá 80% da tela */
+  flex-shrink: 0;
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 20px;
+}
